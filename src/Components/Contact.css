@@ -1,0 +1,122 @@
+.contact-content{
+    padding: 20px;
+}
+
+.contact-text{
+    display: inline-block;
+    color: var(--yellow-theme-sub-color);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    position: relative;
+    border-bottom: 2px solid var(--yellow-theme-main-color);
+    margin-bottom: 15px;
+}
+
+.contact-text::before{
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 5px;
+    background-color: var(--yellow-theme-main-color);
+    bottom: -1px;
+    left: 0;
+} 
+
+.contact-text::after{
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 5px;
+    background-color: var(--yellow-theme-main-color);
+    bottom: -1px;
+    right: 0;
+} 
+
+.contact-form{
+    margin-top: 15px;
+}
+
+.form-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.form-wrapper div{
+    position: relative;
+}
+
+.inputEmail, .inputName, .inputDescription{
+    width: 100%;
+    border: 2px solid var(--yellow-theme-main-color);
+    padding: 15px 10px;
+    transition: all 0.5s ease;
+    position: relative;
+    z-index: 1;
+    background: transparent;
+    color: var(--yellow-theme-main-color);
+}
+
+.nameLabel, .emailLabel, .descriptionLabel{
+    position: absolute;
+    font-weight: 500;
+    top: 7px;
+    left: 12px;
+    z-index: 0;
+    color: var(--yellow-theme-main-color);
+    font-size: 16px;
+}
+
+.inputEmail:focus, .inputName:focus, .inputDescription:focus{
+    outline: none;
+}
+
+.inputName:focus + .nameLabel{
+    font-size: 18px;
+    top: -25px;
+    left: 0;
+}
+
+.inputEmail:focus + .emailLabel{
+    font-size: 18px;
+    top: -25px;
+    left: 0;
+}
+
+.inputDescription:focus + .descriptionLabel{
+    font-size: 18px;
+    top: -25px;
+    left: 0;
+}
+
+.contact-form button{
+    cursor: pointer;
+    padding: 10px 70px;
+    font-size: 2rem;
+    background: transparent;
+    color: var(--yellow-theme-main-color);
+    border: 1.5px solid var(--yellow-theme-main-color);
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.contact-form button:hover{
+    color: #000000;
+    background: var(--yellow-theme-main-color);
+}
+
+@media only screen and (max-width : 768px) {
+    .contact-form{
+        text-align: center;
+    }
+
+    .form-wrapper{
+        grid-template-columns: repeat(1,1fr);
+        gap: 45px;
+    }
+}

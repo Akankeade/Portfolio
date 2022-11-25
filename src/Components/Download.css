@@ -1,0 +1,48 @@
+.download{
+    background-color: white;
+    height: 90vh;
+    padding: 20px;
+}
+
+.personal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.personal p{
+    font-size: 16px;
+}
+
+.edu{
+    padding: 12.5px;
+}
+
+.edu h2{
+    margin-bottom: 10px;
+}
+
+.flex{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+}
+
+.flex p, .flex li{
+    font-size: 14px;
+}
+
+.skills{
+    margin-top: 50px;
+}
+
+.soft-skill{
+    padding: 12.5px;
+}
+
+.soft-skill li{
+    font-size: 14px;
+    line-height: 20px;
+}

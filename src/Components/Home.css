@@ -1,0 +1,114 @@
+.home {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.home-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5078ff;
+}
+
+.home-text h1 {
+    color: var(--yellow-theme-main-color);
+    margin: 0;
+    font-weight: 400;
+    font-size: 6rem;
+    line-height: 10rem;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: effect 1.5s steps(30, end);
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.contact-button {
+    display: flex;
+    gap: 10px;
+}
+
+.contact-button button{
+    cursor: pointer;
+    padding: 10px 50px;
+    font-size: 2rem;
+    background: transparent;
+    color: var(--yellow-theme-main-color);
+    border: 1.5px solid var(--yellow-theme-main-color);
+    border-radius: 5px;
+}
+
+.contact-button button:hover{
+    color: black;
+    background: var(--yellow-theme-main-color);
+}
+
+.contact-button a{
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 50px;
+    font-size: 2rem;
+    background: transparent;
+    color: var(--yellow-theme-main-color);
+    border: 1.5px solid var(--yellow-theme-main-color);
+    border-radius: 5px;
+}
+
+.contact-button a:hover{
+    color: black;
+    background: var(--yellow-theme-main-color);
+ }
+
+ .contact-icons{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+ }
+
+ .contact-icons svg{
+    color: var(--yellow-theme-main-color);
+ }
+@keyframes effect {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .home-text h1 {
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+}
+
+@media only screen and (min-width: 551px) and (max-width: 768px) {
+    .home-text h1 {
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 990px) {
+    .home-text h1 {
+        font-size: 5rem;
+        line-height: 8rem;
+    }
+}

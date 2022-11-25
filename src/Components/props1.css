@@ -1,0 +1,21 @@
+.props-content{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid var(--yellow-theme-main-color);
+}
+
+.props-content h2{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.5rem;
+    text-transform: capitalize;
+    color: var(--yellow-theme-main-color);
+    position: relative;
+    display: flex;
+    flex: 1;
+}
+
+.props-content svg{
+        color: var(--yellow-theme-main-color);
+    }

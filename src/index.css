@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,600&family=Fraunces:ital,opsz,wght@1,9..144,900&family=Roboto+Slab:wght@500&display=swap');
+
+
+:root{
+  /* --selected-theme-background-color: var(--yellow-theme-background-color);
+  --selected-theme-main-color: var(--yellow-theme-main-color);
+  --selected-theme-sub-color: var(--yellow-theme-sub-color);
+  --selected-theme-nav-bgrc: var(--yellow-theme-nav-bgrc) */
+
+  --yellow-theme-background-color: #1d1d1d;
+  --yellow-theme-main-color: #ffdd40;
+  --yellow-theme-sub-color: #ffff;
+  --yellow-theme-nav-bgrc: #181818;
+
+  --red-theme-background-color: #1d1d1d;
+  --red-theme-main-color: #e82a2a;
+  --red-theme-sub-color: #ffff;
+  --red-theme-nav-bgrc: #181818;
+
+  --green-theme-background-color: #1d1d1d;
+  --green-theme-main-color: #6ac045;
+  --green-theme-sub-color: #ffff;
+  --green-theme-nav-bgrc: #1d1d1d;
+
+  --blue-theme-background-color: #1d1d1d;
+  --blue-theme-main-color: #5078ff;
+  --blue-theme-sub-color: #ffff;
+  --blue-theme-nav-bgrc: #1d1d1d;
+
+  --font-base:"Roboto Slab" , serif;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+html{
+  font-size: 70.5%;
+  height: 100%;
+}
+
+body{
+  background: var(--yellow-theme-background-color);
+  height: 100%;
+}
+
+#root{
+  height: 100%;
+}
