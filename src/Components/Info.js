@@ -1,21 +1,21 @@
 export const personalInfo = [
     {
-        label : "Name",
+        label : "Name :",
         value : "Akanke"
     },
 
     {
-        label : "Address",
+        label : "Address :",
         value : "Lagos"
     },
 
     {
-        label : "Email",
+        label : "Email :",
         value : "akankeopeoluwa@gmail.com"
     },
 
     {
-        label : "WhatsApp Contact",
+        label : "WhatsApp Contact :",
         value : "09097372104"
     }
 ]

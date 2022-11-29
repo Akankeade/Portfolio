@@ -7,6 +7,7 @@ import ParticlesConfig from '../Helpers/ParticlesConfig'
 import { FaLinkedinIn, FaWhatsapp, FaTwitter, FaGithub } from 'react-icons/fa'
 import {FiMail} from 'react-icons/fi'
 import { Link } from 'react-router-dom'
+import AkankeCV from '../Assets/AkankeCV.pdf'
 
 
 
@@ -41,8 +42,7 @@ const Home = () => {
           <div className='contact-button'>
             <Link to='/Contact'>Hire me</Link>
 
-           {/* eslint-disable-next-line */}
-            <Link to='/Download'>See Resume</Link>
+            <a href={AkankeCV} download>Download Resume</a>
           </div>
 
         </div>

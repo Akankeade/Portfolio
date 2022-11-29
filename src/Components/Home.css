@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 .home-text {
@@ -43,8 +43,8 @@
 
 .contact-button button{
     cursor: pointer;
-    padding: 10px 50px;
-    font-size: 2rem;
+    padding: 10px 40px;
+    font-size: 1rem;
     background: transparent;
     color: var(--yellow-theme-main-color);
     border: 1.5px solid var(--yellow-theme-main-color);
