@@ -48,11 +48,11 @@ const Home = () => {
         </div>
 
         <div className="contact-icons">
-          <a href="https://github.com/Akankeade"><FaGithub size={32}/></a>
-          <a href="https://wa.me/2349097372104"><FaWhatsapp size={32} /></a>
-          <a href="https://www.linkedin.com/in/medina-salaudeen-931584250?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bygu1weydQI%2Boau7xpGHhag%3D%3D"><FaLinkedinIn size={32}/></a>
-          <a href="https://twitter.com/Mowewuola"><FaTwitter size={32}/></a>
-          <a href="mailto:akankeopeolwa@gmail.com" ><FiMail size={32}/></a>
+          <a href="https://github.com/Akankeade" target= "_blank" rel='noreferrer'><FaGithub size={32}/></a>
+          <a href="https://wa.me/2349097372104" target= "_blank" rel='noreferrer'><FaWhatsapp size={32} /></a>
+          <a href="https://www.linkedin.com/in/medina-akanke-931584250" target= "_blank" rel='noreferrer'><FaLinkedinIn size={32}/></a>
+          <a href="https://twitter.com/Mowewuola" target= "_blank" rel='noreferrer'><FaTwitter size={32}/></a>
+          <a href="mailto:akankeopeolwa@gmail.com" target= "_blank" rel='noreferrer'><FiMail size={32}/></a>
         </div>
       </Animate>
 
